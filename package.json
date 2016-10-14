@@ -4,7 +4,7 @@
   "description": "front techs homework #1",
   "main": "index.html",
   "scripts": {
-    "start": "node_modules/http-server/bin/http-server"
+    "start": "./node_modules/.bin/webpack-dev-server --content-base dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/gminemini/Pokedex#readme",
   "devDependencies": {
-    "http-server": "^0.9.0"
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "http-server": "^0.9.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
   }
 }
